@@ -1,0 +1,115 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.constructor-result {
+    display: flex;
+    justify-content: center;
+}
+
+.constructor-container {
+    border: solid black 5px;
+    width: 40%;
+    height: 70vh;
+    margin: 20px;
+    box-shadow: 0 0 10px 5px rgb(236, 179, 179);
+}
+
+.result-container {
+    border: solid black 5px;
+    width: 40%;
+    height: 70vh;
+    margin: 20px;
+    box-shadow: 0 0 10px 5px rgb(199, 247, 199);
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+}
+.create-btn {
+    background-color: green;
+    border: none;
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    font-size: 30px;
+    box-shadow: 0 0 5px rgb(70, 231, 97), 0 0 25px rgb(56, 235, 110),
+        0 0 50px rgb(61, 240, 55), 0 0 100px rgb(26, 238, 79),
+        0 0 200px rgb(7, 245, 39);
+}
+
+.create-container {
+    margin-left: 105px;
+}
+
+.newDiv {
+    background-color: rgb(240, 231, 231);
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    border: solid black 1px;
+    cursor: pointer;
+}
+
+.newH1 {
+    background-color: rgb(216, 221, 217);
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    color: black;
+    border: solid black 1px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.newSpan {
+    background-color: rgb(205, 203, 211);
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    color: black;
+    border: solid black 1px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.newInput {
+    width: 96%;
+    background-color: rgb(207, 209, 197);
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.newParagraf {
+    background-color: rgb(211, 192, 210);
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.onActive {
+    background: rgb(163, 230, 163);
+}
+
+.ofActive {
+    background: rgb(248, 114, 114);
+}
